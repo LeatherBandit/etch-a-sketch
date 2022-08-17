@@ -1,0 +1,21 @@
+html {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(16, 6.25%);
+    background-color: red;
+    padding: 10px;
+    width: 600px;
+    height: 600px;
+    margin: auto;
+}
+
+.grid-square {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 5x;
+    text-align: center;
+}
