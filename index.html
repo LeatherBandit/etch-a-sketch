@@ -11,17 +11,25 @@
 
 <body onload="createDiv()">
 
-    <div class="grid-container">
-    </div>
 
-    <div class="options">
-        <button class="add-div" onclick="createDiv(256)">Add Div</button>
-        <button class="clear" onclick="clear()">Clear</button>
-            <label>Enter grid size: (max 100)</label>
-            <input type="number" max="100" min="1" value="16" class="content">
-            <input type="submit" value="Change Size" class="submit">
-    </div>
+    <div class="header">Etch-a-Sketch</div>
 
+    <div class="global-wrapper">
+
+        <div class="options">
+            <button class="clear options-inner" onclick="clear()">Clear</button>
+            <label class="options-inner">Enter grid size: (max 100)</label>
+            <input type="number" max="100" min="1" value="16" class="content options-inner">
+            <input type="submit" value="Change Size" class="submit options-inner">
+        </div>
+
+
+        <div class="grid-container">
+        </div>
+
+
+
+    </div>
     <script src="script.js"></script>
 </body>
 

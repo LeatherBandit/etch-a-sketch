@@ -1,4 +1,3 @@
-const addDiv = document.querySelector(".add-div");
 const gridContainer = document.querySelector(".grid-container");
 const clearButton = document.querySelector(".clear");
 const submitButton = document.querySelector(".submit");
